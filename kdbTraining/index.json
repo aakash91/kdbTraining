@@ -67,6 +67,6 @@
         "uilayout": "editor-terminal"
     },
     "backend": {
-        "imageid": "bash"
+        "imageid": "docker"
     }
 }
