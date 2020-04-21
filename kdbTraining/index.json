@@ -53,8 +53,10 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
-  "backend": {
-    "imageid": "kafka:2.4"
-  }
+  "environment": {
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
 }
