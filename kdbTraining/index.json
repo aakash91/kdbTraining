@@ -54,12 +54,12 @@
     },
 	"assets": {
 			"client": [
-                {"file": "q", "target": "/home/scrapbook", "chmod": "+x"},
-                {"file": "q.k", "target": "/home/scrapbook", "chmod": "+x"}
+                {"file": "q", "target": "/home/scrapbook/tutorial", "chmod": "+x"},
+                {"file": "q.k", "target": "/home/scrapbook/tutorial", "chmod": "+x"}
             ],
             "host01": [
-                {"file": "q", "target": "/home/scrapbook", "chmod": "+x"},
-                {"file": "q.k", "target": "/home/scrapbook", "chmod": "+x"}
+                {"file": "q", "target": "/home/scrapbook/tutorial", "chmod": "+x"},
+                {"file": "q.k", "target": "/home/scrapbook/tutorial", "chmod": "+x"}
             ]
         }
   },
