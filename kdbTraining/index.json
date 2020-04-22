@@ -54,7 +54,7 @@
     },
 	"assets": {
             "host01": [
-                {"file": "*", "target": "~/", "chmod": "+x"}
+                {"file": "*", "target": "~/"}
                      ]
         }
   },
