@@ -2,7 +2,7 @@
   "title": "kdbTraining",
   "description": "kdb training",
   "difficulty": "Beginner",
-  "time": "6121",
+  "time": "61212",
   "details": {
     "steps": [
       {
@@ -54,7 +54,8 @@
     },
 	"assets": {
             "host01": [
-                {"file": "q.k", "target": "/root"}
+                {"file": "q.k", "target": "/root"},
+				{"file": "q", "target": "/root"}
                      ]
         }
   },
