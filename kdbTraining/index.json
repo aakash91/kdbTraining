@@ -51,13 +51,7 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-	"assets": {
-            "host01": [
-                {"file": "q.k", "target": "/root"},
-				{"file": "q.q", "target": "/root"}
-                     ]
-        }
+    }
   },
   "environment": {
         "uilayout": "terminal"
