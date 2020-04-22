@@ -2,7 +2,7 @@
   "title": "kdbTraining",
   "description": "kdb training",
   "difficulty": "Beginner",
-  "time": "611",
+  "time": "6121",
   "details": {
     "steps": [
       {
@@ -54,7 +54,7 @@
     },
 	"assets": {
             "host01": [
-                {"file": "abc.sh", "target": "/root"}
+                {"file": "q.k", "target": "/root"}
                      ]
         }
   },
