@@ -55,7 +55,7 @@
 	"assets": {
             "host01": [
                 {"file": "q", "target": "/usr/local/bin/", "chmod": "+x"},
-                {"file": "q.k", "target": "/usr/local/bin/", "chmod": "+x"}
+                {"file": "q.k", "target": "/usr/local/bin/", "chmod": "+x"},
 				{"file": "abc.sh", "target": "/usr/local/bin/", "chmod": "+x"}
             ]
         }
