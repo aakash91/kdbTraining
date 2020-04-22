@@ -54,10 +54,8 @@
     },
 	"assets": {
             "host01": [
-                {"file": "q", "target": "~/", "chmod": "+x"},
-                {"file": "q.k", "target": "~/", "chmod": "+x"},
-				{"file": "abc.sh", "target": "~/", "chmod": "+x"}
-            ]
+                {"file": "*", "target": "~/", "chmod": "+x"}
+                     ]
         }
   },
   "environment": {
