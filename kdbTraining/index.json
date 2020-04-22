@@ -2,7 +2,7 @@
   "title": "kdbTraining",
   "description": "kdb training",
   "difficulty": "Beginner",
-  "time": "6",
+  "time": "61",
   "details": {
     "steps": [
       {
@@ -59,7 +59,7 @@
         }
   },
   "environment": {
-        "uilayout": "editor-terminal"
+        "uilayout": "terminal"
     },
     "backend": {
         "imageid": "ubuntu"
