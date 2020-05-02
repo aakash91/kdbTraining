@@ -6,43 +6,43 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Installation",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Right to Left Evaluation, Variable Assignment",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Data Types in q",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Type conversion",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Step 5 - Lists",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Step 6 - Dictionaries",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "Step 7 - Functions",
         "text": "step7.md"
       },
       {
-        "title": "Step 8",
+        "title": "Step 8 - Adverbs",
         "text": "step8.md"
       },
       {
-        "title": "Step 9",
+        "title": "Step 9 - Tables",
         "text": "step9.md"
       },
       {
-        "title": "Step 10",
+        "title": "Step 10 - Queries",
         "text": "step10.md"
       }
     ],
