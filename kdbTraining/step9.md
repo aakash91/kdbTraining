@@ -129,7 +129,7 @@ Let&#39;s take addition for example:
 
 64
 
-- The left operand &quot;0&quot; is the initial value passed to the accumulator.
+- •	The left operand “0” is the initial value passed to the accumulator.
 - The right operand is the list to be accumulated over.
 - The operation starts with (0+1), then this result is added to 2 and so on and so forth.
 
@@ -200,7 +200,7 @@ When over(/) follows a _ **monadic ** _function, one can specify the number of t
 
 Over can behave as a converge when following a _ **monadic ** _function. It keeps iterating until the last seen is produced. Example:
 
-    q){0N!x;x\*x}/[0.1]
+    q){0N!x;x*x}/[0.1]
 
 0.1
 
@@ -255,7 +255,7 @@ Over can be limited in the number of its iterations by specifying _ **another fu
 1200
 
 - The over function is modifying the first function.
-- The function:{1200\&gt;x} condition checks each iteration by comparing the value of the second argument which is the input to the first function.
+- The function:{1200>x} condition checks each iteration by comparing the value of the second argument which is the input to the first function.
 
 ### Fold using over
 

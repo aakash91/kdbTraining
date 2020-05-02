@@ -8,13 +8,13 @@ Where x is a lower-case letter, symbol or non-negative short, returns y cast acc
 
     q)/Converting String to Integer
 
-    q)&quot;I&quot;$&quot;2&quot;
+    q)"I"$"2"
 
 2i
 
     q)/Converting String to Float
 
-    q)&quot;F&quot;$&quot;2&quot;
+    q)"F"$"2"
 
 2f
 

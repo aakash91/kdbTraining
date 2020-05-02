@@ -164,7 +164,7 @@ Examples of all below:
 
     q)/group takes a list and returns a dictionary in which east distinct item of the argument is mapped to the indices of its occurences, in order of occurence
 
-    q)group &quot;mississippi&quot;
+    q)group "mississippi"
 
 m| ,0
 

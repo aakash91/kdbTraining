@@ -9,7 +9,7 @@ Syntax:
 
 Example:
 
-q)tbl:([] a:1 2 3;b:`john`bob`moss)
+q)tbl:([] a:1 2 3;b: `john`bob`moss)
 
 q)tbl
 

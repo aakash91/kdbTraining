@@ -2,7 +2,7 @@
 
 Let&#39;s take a look at a simple mathematical function definition in q:
 
-f:{[x] x:x+2;x\*x}
+f:{[x] x:x+2;x*x}
 
 - A function is enclosed by a pair of curly braces { and }
 - Parameters are enclosed by [and]. Passing parameters is optional. More on this later.
@@ -16,11 +16,11 @@ f:{[x] x:x+2;x\*x}
 
 Let&#39;s take the first definition we had a look at and apply actual arguments to it.
 
-f:{[x] x:x+2;x\*x} /Definition
+f:{[x] x:x+2;x*x} /Definition
  f**[3]** /Applying the actual argument to function definition
- {[x] x:x+2;x\*x}**[3]** /Case when the function assigned
+ {[x] x:x+2;x*x}**[3]** /Case when the function assigned
 
-    q)f:{[x] x:x+2;x\*x}
+    q)f:{[x] x:x+2;x*x}
 
     q)f[3]
 
@@ -34,7 +34,7 @@ Programmers coming from a different paradigm can use the below way to define fun
 
 The subtle difference from the function definition we looked above is placing the semicolon (;) at the end of the sequence of expressions.
 
-    q)f:{[x] x\*x;}
+    q)f:{[x] x*x;}
 
     q)f[2]
 
@@ -56,7 +56,7 @@ One can omit the parameters passed to a function since implicit parameters x, y 
 
 Examples:
 
-    q)/Local variable &#39;a&#39; inside a function
+    q)/Local variable 'a' inside a function
 
     q)f:{[x] a:5;x+a}
 

@@ -1,4 +1,4 @@
-A [List](https://en.wikipedia.org/wiki/List_(abstract_data_type)) is an ordered collection of atoms or other lists. The members of the collection are called its items. Let&#39;s take a look at a simple list:
+A [List](https://en.wikipedia.org/wiki/List_(abstract_data_type) is an ordered collection of atoms or other lists. The members of the collection are called its items. Let&#39;s take a look at a simple list:
 
     q)(1 2 3)
 
