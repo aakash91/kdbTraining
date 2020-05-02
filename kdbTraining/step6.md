@@ -14,13 +14,13 @@ In this section, let&#39;s go over some basic list operations such as:
 
 On a general list L, the retrieval works as L[i] where i is the index of the item being retrieved.
 
-q)L:(1;2;4;3)
+    q)L:(1;2;4;3)
 
-q)L[2]
+    q)L[2]
 
 4
 
-q)L[3]
+    q)L[3]
 
 3
 
@@ -28,11 +28,11 @@ q)L[3]
 
 Indexing can also be used to assign values to items.
 
-q)L:1 2 4 6
+    q)L:1 2 4 6
 
-q)L[1]:9
+    q)L[1]:9
 
-q)L
+    q)L
 
 1 9 4 6
 
@@ -40,13 +40,13 @@ q)L
 
 Any valid q expression can occur in list construction.
 
-q)L: 1 2 4
+    q)L: 1 2 4
 
-q)L1: 1 5 6
+    q)L1: 1 5 6
 
-q)L2:(sum L;count L1)
+    q)L2:(sum L;count L1)
 
-q)L2
+    q)L2
 
 7 3
 
@@ -54,11 +54,11 @@ q)L2
 
 The _ **join ** _operator is used for joining two lists. Its result is a new list in which (a copy of) the right operand is appended to the end of (a copy of) the left operand.
 
-q)L1:1 2 4
+    q)L1:1 2 4
 
-q)L2:9 8 7
+    q)L2:9 8 7
 
-q)L1,L2
+    q)L1,L2
 
 1 2 4 9 8 7
 
@@ -66,21 +66,21 @@ q)L1,L2
 
 Indexing at depth is used to get items from nested lists.
 
-q)L:(1;(1;2);((3;4);(5;6)))
+    q)L:(1;(1;2);((3;4);(5;6)))
 
-q)L[1]
+    q)L[1]
 
 1 2
 
-q)L[1][1]
+    q)L[1][1]
 
 2
 
-q)
+    q)
 
-q)/Alternate to above expression
+    q)/Alternate to above expression
 
-q)L[1;1]
+    q)L[1;1]
 
 2
 
@@ -88,37 +88,37 @@ q)L[1;1]
 
 One can use a list of indices to a list to get the corresponding items in the list. L[I], where I is a list of indices.
 
-q)L:(1;(1;2);((3;4);(5;6)))
+    q)L:(1;(1;2);((3;4);(5;6)))
 
-q)L[1]
+    q)L[1]
 
 1 2
 
-q)L[1][1]
+    q)L[1][1]
 
 2
 
-q)
+    q)
 
-q)/Alternate to above expression
+    q)/Alternate to above expression
 
-q)L[1;1]
+    q)L[1;1]
 
 2
 
-q)
+    q)
 
-q)
+    q)
 
-q)L: 1 2 3 4 5 6
+    q)L: 1 2 3 4 5 6
 
-q)L[0 5]
+    q)L[0 5]
 
 1 6
 
-q)/Retrieve multiple lists by passing multiple lists of indices
+    q)/Retrieve multiple lists by passing multiple lists of indices
 
-q)L[(1 2;3 4)]
+    q)L[(1 2;3 4)]
 
 2 3
 
@@ -128,9 +128,9 @@ q)L[(1 2;3 4)]
 
 The _ **find ** _operator _ **?** _ returns the index of the first occurrence of the value passed as its right argument.
 
-q)L:1 2 3 4 5 6
+    q)L:1 2 3 4 5 6
 
-q)L?2
+    q)L?2
 
 1
 
@@ -144,27 +144,27 @@ q)L?2
 
 Examples of all below:
 
-q)/til takes a non-negative integer n and returns a list of n consecutive natural numbers starting at 0
+    q)/til takes a non-negative integer n and returns a list of n consecutive natural numbers starting at 0
 
-q)til 10
+    q)til 10
 
 0 1 2 3 4 5 6 7 8 9
 
-q)/distinct returns the unique items in its list argument, in order of first occurence
+    q)/distinct returns the unique items in its list argument, in order of first occurence
 
-q)distinct 0 1 2 3 1 0
+    q)distinct 0 1 2 3 1 0
 
 0 1 2 3
 
-q)/where returns the indices of 1b in a boolean list
+    q)/where returns the indices of 1b in a boolean list
 
-q)where 01101b
+    q)where 01101b
 
 1 2 4
 
-q)/group takes a list and returns a dictionary in which east distinct item of the argument is mapped to the indices of its occurences, in order of occurence
+    q)/group takes a list and returns a dictionary in which east distinct item of the argument is mapped to the indices of its occurences, in order of occurence
 
-q)group &quot;mississippi&quot;
+    q)group &quot;mississippi&quot;
 
 m| ,0
 
@@ -174,13 +174,13 @@ s| 2 3 5 6
 
 p| 8 9
 
-q)/count returns the number of elements in the first level of a list
+    q)/count returns the number of elements in the first level of a list
 
-q)count (1;2;3;4;5)
+    q)count (1;2;3;4;5)
 
 5
 
-q)count (1;2;(3;4))
+    q)count (1;2;(3;4))
 
 3
 
@@ -190,17 +190,17 @@ Mathematical operations between two lists work when both the lists are of same l
 
 One can also apply apply operations between an atom and a list.
 
-q)1+(10;11;12)
+    q)1+(10;11;12)
 
 11 12 13
 
-q)(1;2;4)+(5;6;7)
+    q)(1;2;4)+(5;6;7)
 
 6 8 11
 
-q)/Running into the length error when trying to add two lists of different lengths
+    q)/Running into the length error when trying to add two lists of different lengths
 
-q)(1;2;4)+(1;4;8;9)
+    q)(1;2;4)+(1;4;8;9)
 
 &#39;length
 
@@ -210,28 +210,28 @@ q)(1;2;4)+(1;4;8;9)
 
 The _ **match ** _operator _ **~** _ is used to compare two q entities and outputs 1b if they are identical else 0b.
 
-q)(1;2;3;4)~(1;2;3;4)
+    q)(1;2;3;4)~(1;2;3;4)
 
 1b
 
-q)(1;2;3;4)~(1;2;4;3)
+    q)(1;2;3;4)~(1;2;4;3)
 
 0b
 
 ## Relational Operations
 
-q)1=(1;2;3;1)
+    q)1=(1;2;3;1)
 
 1001b
 
-q)(1;4;3;2)=(1;2;3;1)
+    q)(1;4;3;2)=(1;2;3;1)
 
 1010b
 
-q)(2;3;5;7)\&gt;=(1;3;9;9)
+    q)(2;3;5;7)\&gt;=(1;3;9;9)
 
 1100b
 
-q)1\&lt;\&gt;(1;2;3;5)
+    q)1\&lt;\&gt;(1;2;3;5)
 
 0111b
