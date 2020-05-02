@@ -5,3 +5,5 @@ KDB+ has been the tool of choice for analyzing vast amounts of data, millions an
 * a high-performance historical time-series columnar database
 * an expressive query and programming language called q
 * an in-memory compute engine
+
+** Please practice everything with q) on the terminal **
