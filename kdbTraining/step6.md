@@ -228,10 +228,10 @@ The _ **match ** _operator _ **~** _ is used to compare two q entities and outpu
 
 1010b
 
-    q)(2;3;5;7)\&gt;=(1;3;9;9)
+    q)(2;3;5;7)>=(1;3;9;9)
 
 1100b
 
-    q)1\&lt;\&gt;(1;2;3;5)
+    q)1<>(1;2;3;5)
 
 0111b
